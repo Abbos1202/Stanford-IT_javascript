@@ -1,142 +1,77 @@
-// console.log("Abbos");
-
-// var / let / const
-
-// ================================================
-
-// Begin 1
-
-// var a = 7;
-
-// var P = 4 * a;
-
-// console.log(P);
-
-// ================================================
-
-// Begin 2
-
 // var a = 10;
 
-// var S = a * a;
+// var b = "Abbos";
 
-// console.log(S);
+// console.log(a + b);
+// console.log(a - b);
 
-// ================================================
+// NAN  --> Not A Number
 
-// Begin 3
+// Boolean
 
-// var a = 8;
-// var b = 10;
+// true = 1
+// false = 0
 
-// var S = a * b;
-// var P = 2 * (a + b);
+// console.log(true);
 
-// console.log(S, P)
+// undefined
 
-// ================================================
+// var a;
 
-// Begin 4
+// console.log(a);
 
-// var d = 15;
-// var pi = 3.14;
+// is not defined
 
-// var L = pi * d;
+// // var a;
 
-// console.log(L);
+// console.log(a);
 
-// ================================================
+// null
 
-// Begin 5
+// var a = null;
 
-// var a = 10;
+// console.log(a);
 
-// var V = a * a * a;
-// var S = 6 * (a * a);
+// var name = null;
 
-// console.log(V, S);
+// name = "Abbos";
 
-// ================================================
+// console.log(name);
 
-// Begin 6
+// parseInt => Butun son holatda natija chiqarish uchun kerak bo'ladi
+// parseFloat => Kasr son holatda natija chiqarish uchun kerak bo'ladi
 
-// var a = 10;
-// var b = 15;
-// var c = 20;
+// var a = 10.5;
 
-// var V = a * b * c;
-// var S = 2 * (a * b + b * c + c * a);
+// console.log(parseInt(a));
+// console.log(parseFloat(a));
 
-// console.log(V, S);
-
-// ================================================
-
-// Begin 7
-
-// var R = 10;
-// var pi = 3.14;
-
-// var L = 2 * pi * R;
-// var S = pi * (R * R);
-
-// console.log(L, S);
-
-// ================================================
-
-// Begin 8
+// +=
 
 // var a = 5;
-// var b = 10;
+// // a = a + 3;
+// a += 3;
+// a -= 5;
 
-// var A = (a + b) / 2;
+// console.log(a);
 
-// console.log(A);
-
-// ================================================
-
-// Begin 9
-
-// var a = 3;
-// var b = 2;
-
-// var G = (a * b) ** 0.5;
-
-// console.log(G)
-
-// ================================================
-
-// Begin 10
+// **
 
 // var a = 5;
-// var b = 3;
 
-// var Y = a + b;
-// var K = a * b;
-// var Kva = a ** 2;
-// var Kvb = b ** 2;
+// var b = a ** 3;
 
-// console.log(Y);
-// console.log(K);
-// console.log(Kva);
-// console.log(Kvb);
+// console.log(b);
 
-// ================================================
+// var a = 25;
 
-// Begin 11
+// var b = a ** 0.5;
 
-// var a = 2;
-// var b = 5;
+// console.log(b);
 
-// var Y = a + b;
-// var K = a * b;
+// var a = 5;
 
-// //  Module is not found
-
-// console.log(Y, K);
-
-// ================================================
-
-// Begin 12
+// console.log(++a);
 
 // var a = 5;
 // var b = 10;
@@ -146,123 +81,14 @@
 
 // console.log(c, P);
 
-// ================================================
+// = == ===
 
-// Begin 13
+var a = 10;
+var b = "10";
 
-// var R1 = 10;
-// var R2 = 15;
-// var pi = 3.14;
+a = b;
 
-// var S1 = pi * R1;
-// var S2 = pi * R2;
-// var S3 = pi * (R1 - R2);
+console.log(a == b); // value
+console.log(a === b); // value / data types
 
-// console.log(S1, S2, S3);
 
-// ================================================
-
-// Begin 14
-
-// var R = 10;
-// var pi = 3.14;
-
-// var L = 2 * pi * R;
-// var S = pi * R ** 2;
-
-// console.log(L, S);
-
-// ================================================
-
-// Begin 15
-
-// ================================================
-
-// Begin 16
-
-// var X1 = 5;
-// var X2 = 10;
-
-// var M = X2 - X1;
-
-// console.log(M);
-
-// ================================================
-
-// Begin 17
-
-// var A = 10;
-// var B = 15;
-// var C = 20;
-
-// var AC = A + C;
-// var BC = B + C;
-
-// console.log(AC, BC)
-
-// ================================================
-
-// Begin 18 
-
-// var A = 5;
-// var B = 10;
-// var C = 8;
-
-// var AC = A * C;
-// var BC = B * C;
-
-// console.log(AC, BC);
-
-// ================================================
-
-// Begin 19
-
-// var a = 20;
-// var b = 20;
-
-// var P = 2 * (a + b);
-// var S = a * b;
-
-// console.log(P, S);
-
-// ================================================
-
-// Begin 20
-
-// var X1 = 3;
-// var X2 = 5;
-// var Y1 = 7;
-// var Y2 = 9;
-
-// var M = ((X2 - X1) ** 2 + (Y2 - Y1) ** 2) ** 0.5;
-
-// console.log(M);
-
-// ================================================
-
-// Begin 22
-
-// var A = 10;
-// var B = 5;
-// var C;
-
-// C = A;
-// A = B;
-// B = C;
-
-// console.log(A, B);
-
-// ================================================
-
-// Begin 23
-
-var A = 5;
-var B = 10;
-var C = 15;
-var D = A;
-
-A = B;
-B = C;
-C = D;
-
-console.log(A, B, C);

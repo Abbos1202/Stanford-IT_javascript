@@ -1,94 +1,119 @@
-// var a = 10;
+// To'rburchakning maydonini hisoblaydigan dastur tuzing.
 
-// var b = "Abbos";
+// var boy = 33;
+// var en = 28;
 
-// console.log(a + b);
-// console.log(a - b);
+// var S = (boy + en) * 2;
 
-// NAN  --> Not A Number
+// console.log(S);
 
-// Boolean
+// ==================================================================================>
 
-// true = 1
-// false = 0
+// Do'koningiz bor. Har bir molning ustiga foiz qo'yib sotasiz. Pechenyeni qanchadir pulga oldingiz. Nechpul foyda ko'rasiz?
 
-// console.log(true);
+// var pechenyeNarx = 10000000;
+// var ustigaFoiz = 15;
 
-// undefined
+// var foyda = (pechenyeNarx / 100) * ustigaFoiz;
 
-// var a;
+// console.log(foyda);
 
-// console.log(a);
+// ==================================================================================>
 
-// is not defined
+// Oyligingiz bor. Va o'rtog'ingizdan qarzingiz bor. Va har oy muddatli to'lo'vga olgan uyingizga pul to'lashingiz kerak. Bir yilda qancha pul yig'asiz?
 
-// // var a;
+// var qarz = 1000000;
+// var oylik = 5000000;
+// var muddatliTolov = 2000000;
 
-// console.log(a);
+// var Pul = (oylik - qarz - muddatliTolov) * 12;
 
-// null
+// console.log(Pul);
 
-// var a = null;
+// ==================================================================================>
 
-// console.log(a);
+// Firmangiz har oy qanchadir pul topadi. Reklamaga qanchadir pul sarflaydi. Ishchilarning oyligiga qanchadir pul sarflaydi. Bir yilda qancha pul yig'iladi?
 
-// var name = null;
+// var kirim = 1100000;
+// var reklama = 1000;
+// var oyliklar = 700000;
 
-// name = "Abbos";
+// var daromad = (kirim - reklama - oyliklar) * 12;
 
-// console.log(name);
+// console.log(daromad);
 
-// parseInt => Butun son holatda natija chiqarish uchun kerak bo'ladi
-// parseFloat => Kasr son holatda natija chiqarish uchun kerak bo'ladi
+// ==================================================================================>
 
-// var a = 10.5;
+// Har 100 kilometrga qanchadir benzin sarflanadi. Siz qanchadir litr benzin oldingiz. Nechi kilometrga yetadi?
 
-// console.log(parseInt(a));
-// console.log(parseFloat(a));
+// var olinganBenzin = 56;
+// var har100kmga = 8;
 
-// +=
+// var km = (olinganBenzin / har100kmga) * 100;
 
-// var a = 5;
-// // a = a + 3;
-// a += 3;
-// a -= 5;
+// console.log(km);
 
-// console.log(a);
-
-// **
-
-// var a = 5;
-
-// var b = a ** 3;
-
-// console.log(b);
-
-// var a = 25;
-
-// var b = a ** 0.5;
-
-// console.log(b);
-
-// var a = 5;
-
-// console.log(++a);
-
-// var a = 5;
-// var b = 10;
-
-// var c = (a ** 2 + b ** 2) ** 0.5;
-// var P = a + b + c;
-
-// console.log(c, P);
-
-// = == ===
-
-var a = 10;
-var b = "10";
-
-a = b;
-
-console.log(a == b); // value
-console.log(a === b); // value / data types
+// ==================================================================================>
 
 
+// Benzinning narxi bor. Va har 100 kilometrga qanchadir benzin sarflanadi. Siz qanchadir pulga benzin oldingiz. Nechi kilometrga yetadi?
+
+// var narx = 4500;
+// var har100kmga = 9;
+// var pul = 120000;
+
+// var kilometr = (pul / narx / har100kmga) * 100;
+
+// console.log(kilometr);
+
+// ==================================================================================>
+
+
+// Firmangiz har oy qanchadir pul topadi. Soliqqa topgan pulidan 24% beradi. Reklamaga qanchadir pul sarflaydi. Ishchilarning oyligiga qanchadir pul sarflaydi. Bir yilda qancha pul yig'iladi?
+
+// var kirim = 1100000;
+// var reklama = 1000;
+// var oyliklar = 700000;
+// var soliq = 24;
+
+// var soliqPuli = (kirim / 100) * soliq;
+
+// var daromad = (kirim - soliqPuli - reklama - oyliklar) * 12;
+
+// console.log(soliqPuli);
+// console.log(daromad);
+
+// ==================================================================================>
+
+
+// Mikrofon AliExpressda 40$ turadi. Yetkazib berish narxi - 30%. O'zbekistonda esa AliExpress narxiga 50% qo'yib sotsa bo'ladi. Nechpul foyda ko'rasiz?
+
+// var narx = 40;
+// var yetkazish = 30;
+// var ustigaFoiz = 50;
+
+// var yetkazishNarxi = (narx / 100) * yetkazish;
+
+// var foizliNarx = (narx / 100) * ustigaFoiz;
+
+// var sotuvNarxi = narx - yetkazishNarxi + foizliNarx;
+
+// console.log(yetkazishNarxi);
+// console.log(foizliNarx);
+// console.log(sotuvNarxi);
+
+
+// ==================================================================================>
+
+
+// Do'koningiz bor. Har bir molning ustiga 15% qo'yib sotasiz. Har kun 100000 so'mga ga pechenye sotasiz. Nechi kunda 500000 so'm sof foyda ko'rasiz?
+
+var sotilish = 100000;
+var ustigaFoiz = 15;
+
+var foiz = (sotilish / 100) * 15;
+
+var kun = 500000 / foiz;
+
+console.log(foiz);
+console.log(kun);

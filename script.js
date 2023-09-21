@@ -1,92 +1,201 @@
-// ternary operator --> ? :
+// var ball = Number(prompt("Balingizni kiriting"));
 
-// var temp = 27;
+// if else orqali
 
-// // if (temp > 20) {
-// //   console.log("HAvo issiq");
-// // } else {
-// //   console.log("Havo sovuq");
-// // }
+// if (ball >= 86 && ball <= 100) {
+//   alert("A");
+// } else if (ball >= 61 && ball <= 85) {
+//   alert("B");
+// } else if (ball >= 50 && ball <= 60) {
+//   alert("C");
+// } else if (ball < 50) {
+//   alert("Failed");
+// }
 
-// temp > 20
-//   ? console.log("Havo issiq")
-//   : temp > 30
-//   ? console.log("Havo juda issiq")
-//   : console.log("Havo sovuq");
+// ----------------------------------------------->
 
-// var weekdays = Number(prompt("Raqam kiriting / 1 to 7"));
+// ternary operator orqali
 
-// weekdays === 1
-//   ? alert("Dushanba")
-//   : weekdays === 2
-//   ? alert("Seshanba")
-//   : weekdays === 3
-//   ? alert("Chorshanba")
-//   : weekdays === 4
-//   ? alert("Payshanba")
-//   : weekdays === 5
-//   ? alert("Juma")
-//   : weekdays === 6
-//   ? alert("Shanba")
-//   : weekdays === 7
-//   ? alert("Yakshanba")
+// ball >= 86 && ball <= 100
+//   ? alert("A")
+//   : ball >= 61 && ball <= 85
+//   ? alert("B")
+//   : ball >= 50 && ball <= 60
+//   ? alert("C")
+//   : ball < 50
+//   ? alert("Failed")
 //   : alert("Error");
 
-// var a = "yomgir";
+// switch case da qilib bo'lmaydi
 
-// switch (a) {
-//   case "yomgir":
-//     console.log("Soyabon ovoling");
+// ============================================================>
+
+// var meva = prompt("Meva nomini yozing");
+
+// if else orqali
+
+// if (meva === "olma") {
+//   alert(10000);
+// } else if (meva === "nok") {
+//   alert(12000);
+// } else if (meva === "tarvuz") {
+//   alert(20000);
+// } else {
+//   alert("Bunday meva yo'q");
+// }
+
+// ----------------------------------------------->
+
+// ternary operator orqali
+
+// meva === "olma"
+//   ? alert(10000)
+//   : meva === "nok"
+//   ? alert(12000)
+//   : meva === "tarvuz"
+//   ? alert(20000)
+//   : alert("Bunday meva yo'q");
+
+// ----------------------------------------------->
+
+// switch case orqali
+
+// switch (meva) {
+//   case "olma":
+//     alert(10000);
 //     break;
-//   case "qor":
-//     console.log("Qalinroq kiyinib oling");
+//   case "nok":
+//     alert(12000);
+//     break;
+//   case "tarvuz":
+//     alert(20000);
 //     break;
 //   default:
-//     console.log("Error");
+//     alert("Bunday meva yo'q");
 // }
-// ternary operator --> ? :
 
-// var temp = 27;
+// ============================================================>
 
-// // if (temp > 20) {
-// //   console.log("HAvo issiq");
-// // } else {
-// //   console.log("Havo sovuq");
-// // }
+// var num = Number(prompt("Sonni kiriting"));
 
-// temp > 20
-//   ? console.log("Havo issiq")
-//   : temp > 30
-//   ? console.log("Havo juda issiq")
-//   : console.log("Havo sovuq");
+// if else orqali
 
-// var weekdays = Number(prompt("Raqam kiriting / 1 to 7"));
+// if(num % 5 === 0 && num % 3 === 0) {
+//     alert("3 ga va 5 ga bo'linadi")
+// } else if (num % 5 === 0) {
+//     alert("5 ga bo'linadi")
+// }else if (num % 3 === 0) {
+//     alert("3 ga bo'linadi")
+// }else {
+//     alert("Error")
+// }
 
-// weekdays === 1
-//   ? alert("Dushanba")
-//   : weekdays === 2
-//   ? alert("Seshanba")
-//   : weekdays === 3
-//   ? alert("Chorshanba")
-//   : weekdays === 4
-//   ? alert("Payshanba")
-//   : weekdays === 5
-//   ? alert("Juma")
-//   : weekdays === 6
-//   ? alert("Shanba")
-//   : weekdays === 7
-//   ? alert("Yakshanba")
+// ----------------------------------------------->
+
+// ternary operator bilan
+
+// num % 5 === 0 && num % 3 === 0
+//   ? alert("3 ga va 5 ga bo'linadi")
+//   : num % 5 === 0
+//   ? alert("5 ga bo'linadi")
+//   : num % 3 === 0
+//   ? alert("3 ga bo'linadi")
 //   : alert("Error");
 
-// var a = "yomgir";
+// switch case orqali qilib bo'lmaydi
 
-// switch (a) {
-//   case "yomgir":
-//     console.log("Soyabon ovoling");
+// ============================================================>
+
+// var browser = prompt("Choose default browser");
+
+// if else orqali
+
+// if (browser === "Edge") {
+//   alert("You've got the Edge!");
+// } else if (
+//   browser === "Chrome" ||
+//   browser === "Firefox" ||
+//   browser === "Safari" ||
+//   browser === "Opera"
+// ) {
+//   alert("Okay we support these browsers too");
+// } else {
+//   alert("We hope that this page looks ok!");
+// }
+
+// ----------------------------------------------->
+
+// ternary operator orqali
+
+// browser === "Edge"
+//   ? alert("You've got the Edge!")
+//   : browser === "Chrome" ||
+//     browser === "Firefox" ||
+//     browser === "Safari" ||
+//     browser === "Opera"
+//   ? alert("Okay we support these browsers too")
+//   : alert("We hope that this page looks ok!");
+
+// ----------------------------------------------->
+
+// switch case orqali
+
+// switch (browser) {
+//   case "Edge":
+//     alert("You've got the Edge!");
 //     break;
-//   case "qor":
-//     console.log("Qalinroq kiyinib oling");
+//   case "Chrome":
+//   case "Firefox":
+//   case "Safari":
+//   case "Opera":
+//     alert("Okay we support these browsers too");
 //     break;
 //   default:
-//     console.log("Error");
+//     alert("We hope that this page looks ok!");
 // }
+
+// ============================================================>
+
+let login = prompt("Who is this?");
+
+// if else orqali
+
+// if (login === "Employee") {
+//   alert("Hello");
+// } else if (login === "Director") {
+//   alert("Greetings");
+// } else if (login === "") {
+//   alert("No login");
+// } else {
+//   alert("");
+// }
+
+// ----------------------------------------------->
+
+// ternary operator orqali
+
+// login === "Employee"
+//   ? alert("Hello")
+//   : login === "Director"
+//   ? alert("Greetings")
+//   : login === ""
+//   ? alert("No login")
+//   : alert("");
+
+// ----------------------------------------------->
+
+// switch case orqali
+
+switch (login) {
+  case "Employee":
+    alert("Hello");
+    break;
+  case "Director":
+    alert("Greetings");
+    break;
+  case "":
+    alert("No login");
+    break;
+  default:
+    alert("");
+}

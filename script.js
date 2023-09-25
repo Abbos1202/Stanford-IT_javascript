@@ -1,22 +1,63 @@
-// let a = Number(prompt("Nechta ruchka olasiz"));
+// const main = document.getElementsByTagName("div")[0];
 
-// if (a >= 5) {
-//   alert(` ${++a} ruchka odingiz`);
-// } else if (a < 5) {
-//   alert("Beshta ruchka oldingiz");
+// function press() {
+//   if (main.style.backgroundColor === "lime") {
+//     main.style.backgroundColor = "red";
+//   } else {
+//     main.style.backgroundColor = "lime";
+//   }
 // }
 
-// for loop
+// function // function declaration // function expression
 
-// for(boshlang'ich qiymat, shart, qiymatni yangilanishi)
-
-// for (i = 0; i <= 10; i++) {
-//     console.log(i)
+// function a(params) {
+//   "code";
 // }
 
-for (let i = 1; i <= 10; i++) {
-  for (j = 1; j <= 10; j++) {
-    console.log(`${i} X ${j} = ${i * j}`);
-  }
-  console.log("===================");
-}
+// a(); // hoisting
+
+// function a() {
+//   console.log("Stanford");
+// }
+
+// a();
+
+// const a = function () {
+//   console.log("Stanford");
+// };
+
+// a();
+
+// let a = prompt("Ismingizni kiriting");
+
+// function salomlashish() {
+//    if(a === "Ali") {
+//     alert("salom")
+//    }
+//    else{
+//     alert("error")
+//    }
+// }
+
+// salomlashish();
+
+// let a = prompt("Ismingizni kiriting");
+
+// const salomlashish = function () {
+//   a === "Ali" ? alert("Salom") : alert("error");
+// };
+
+// salomlashish();
+
+
+
+// while loop
+
+// let i = 0;
+
+// while (i < 10) {
+//   console.log("Stanford");
+//   i++;
+// }
+
+
